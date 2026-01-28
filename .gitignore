@@ -1,0 +1,12 @@
+# Ignorar diretórios do Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# Ignorar arquivos de variáveis sensíveis
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
